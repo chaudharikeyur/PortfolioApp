@@ -1,5 +1,7 @@
 import {HERO_CONTENT} from "../constants";
 import profilePic from "../assets/kevinRushProfile.png";
+import profilePicc from "../assets/aboutimg.jpg";
+
 import { delay, motion } from "framer-motion";
 
 const container = (delay) => ({
@@ -47,7 +49,8 @@ const Hero = () => {
           }}
           animate={{x:0, opacity:1}}
           transition={{duration:1 , delay:1.2}}
-          src={profilePic} alt="profilepic"  />
+          className="w-[500px]"
+          src={profilePicc} alt="profilepic"  />
        </div>
     </div>
       </div>
